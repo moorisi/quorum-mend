@@ -1,0 +1,211 @@
+{
+  "contract": "0x0eFA1900075F4e8f3E50f801d6E7628D7Ce4AA38",
+  "deployment": "0x81a29a3c2ddbb705a2278bc73f6ea543408aeafdf7d0063430af5cc33d7baca3",
+  "revision": "8242659927ff5b492f3fc3acd0ef7a1caea55898",
+  "source_sha256": "edfac3351d34975c394f3e4a464773dba3ed1c7181822ae7cbb24de8f3d63b6d",
+  "manifest": {
+    "size": 48,
+    "sha256": "ccab0066a67c4d9dce7f35c90fd38867bc0b54c189948035449749338787603e",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/1.json",
+        "sha256": "b41c40cd9ad8d15144202a74ec13869f5cf53f70034e194b4d2fcdb28197927f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/2.json",
+        "sha256": "11c31f7a66aefce718a7f8dd2d4728c60be8becb915457db2fd1b08c563dbfc7"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/3.json",
+        "sha256": "318ff464eefc600eee2d367d5e407c983bf14ce41fb0b2ffb6f573a716edc95a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/4.json",
+        "sha256": "00c0c2ccf35518d1ef681f80502d9c092ce6ae3976d3ef3dbe538337043fcec7"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/5.json",
+        "sha256": "bbc111e0d33dff5fda20f5daa7008b0c391bd593bdd2405f3008d81cc97a3d89"
+      }
+    ]
+  },
+  "fixture_checks": [
+    {
+      "slot": 1,
+      "is_original": false,
+      "source": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/1.json",
+      "observed_commitment": "b41c40cd9ad8d15144202a74ec13869f5cf53f70034e194b4d2fcdb28197927f"
+    },
+    {
+      "slot": 2,
+      "is_original": true,
+      "source": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/2.json",
+      "observed_commitment": "11c31f7a66aefce718a7f8dd2d4728c60be8becb915457db2fd1b08c563dbfc7"
+    },
+    {
+      "slot": 3,
+      "is_original": true,
+      "source": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/3.json",
+      "observed_commitment": "318ff464eefc600eee2d367d5e407c983bf14ce41fb0b2ffb6f573a716edc95a"
+    },
+    {
+      "slot": 4,
+      "is_original": true,
+      "source": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/4.json",
+      "observed_commitment": "00c0c2ccf35518d1ef681f80502d9c092ce6ae3976d3ef3dbe538337043fcec7"
+    },
+    {
+      "slot": 5,
+      "is_original": false,
+      "source": "https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/5.json",
+      "observed_commitment": "fdacf398d1629258a30bb76aa5c3a294ac28de91ecbd1a55e7d53364b0ab6858"
+    }
+  ],
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x81a29a3c2ddbb705a2278bc73f6ea543408aeafdf7d0063430af5cc33d7baca3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "signer": "0xe4ff7f6c75b6e13b6576bdbd5d2b5fd4a2153306",
+      "args": {
+        "args": [
+          "qm1:{\"size\":48,\"sha256\":\"ccab0066a67c4d9dce7f35c90fd38867bc0b54c189948035449749338787603e\",\"sources\":[{\"url\":\"https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/1.json\",\"sha256\":\"b41c40cd9ad8d15144202a74ec13869f5cf53f70034e194b4d2fcdb28197927f\"},{\"url\":\"https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/2.json\",\"sha256\":\"11c31f7a66aefce718a7f8dd2d4728c60be8becb915457db2fd1b08c563dbfc7\"},{\"url\":\"https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/3.json\",\"sha256\":\"318ff464eefc600eee2d367d5e407c983bf14ce41fb0b2ffb6f573a716edc95a\"},{\"url\":\"https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/4.json\",\"sha256\":\"00c0c2ccf35518d1ef681f80502d9c092ce6ae3976d3ef3dbe538337043fcec7\"},{\"url\":\"https://raw.githubusercontent.com/moorisi/quorum-mend/8242659927ff5b492f3fc3acd0ef7a1caea55898/fixtures/live/5.json\",\"sha256\":\"bbc111e0d33dff5fda20f5daa7008b0c391bd593bdd2405f3008d81cc97a3d89\"}]}"
+        ]
+      },
+      "error": null,
+      "state": {
+        "accepted": [],
+        "basis": [],
+        "payload_hex": null,
+        "status": "COLLECTING"
+      }
+    },
+    {
+      "label": "poisoned-basis",
+      "hash": "0xd4772a82a665c7c6a94e34440771109c412ca2957059d76605ce492e230f4fd6",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xb46a6eb8f0fe732e2ffff2206c0af609ccf865be",
+      "args": {
+        "method": "collect",
+        "args": [
+          7
+        ]
+      },
+      "error": null,
+      "state": {
+        "accepted": [
+          1,
+          2,
+          3
+        ],
+        "basis": [],
+        "payload_hex": null,
+        "status": "NO_MATCH"
+      }
+    },
+    {
+      "label": "reject-tampered-batch",
+      "hash": "0x3e1d94a8fef5af119d8bd8627cac3ee426efee916f529a855647ba309b244cdb",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe4ff7f6c75b6e13b6576bdbd5d2b5fd4a2153306",
+      "args": {
+        "method": "collect",
+        "args": [
+          24
+        ]
+      },
+      "error": "Shard commitment mismatch: 5",
+      "state": {
+        "accepted": [
+          1,
+          2,
+          3
+        ],
+        "basis": [],
+        "payload_hex": null,
+        "status": "NO_MATCH"
+      }
+    },
+    {
+      "label": "recover",
+      "hash": "0x94b0f2ad44f89e0647cc5080108798d05397205eb7f59f837ea90139684232ec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xb46a6eb8f0fe732e2ffff2206c0af609ccf865be",
+      "args": {
+        "method": "collect",
+        "args": [
+          8
+        ]
+      },
+      "error": null,
+      "state": {
+        "accepted": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "basis": [
+          2,
+          3,
+          4
+        ],
+        "payload_hex": "00ff407b22736368656d61223a312c226d6f6465223a226d6972726f72222c2272657472795f6c696d6974223a337d0a",
+        "status": "RECOVERED"
+      }
+    },
+    {
+      "label": "reject-after-recovery",
+      "hash": "0xd8d1fa969700760d25c375b85a38fb2929316c5716c149e12c4dec17aafa9cb3",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0xe4ff7f6c75b6e13b6576bdbd5d2b5fd4a2153306",
+      "args": {
+        "method": "collect",
+        "args": [
+          16
+        ]
+      },
+      "error": "Artifact already recovered",
+      "state": {
+        "accepted": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "basis": [
+          2,
+          3,
+          4
+        ],
+        "payload_hex": "00ff407b22736368656d61223a312c226d6f6465223a226d6972726f72222c2272657472795f6c696d6974223a337d0a",
+        "status": "RECOVERED"
+      }
+    }
+  ]
+}

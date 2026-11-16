@@ -27,3 +27,5 @@ node scripts/shards.cjs path/to/payload path/to/output
 ```
 
 The live proof uses a synthetic configuration fixture committed to this repository. Slot 1 matches its declared shard digest while disagreeing with the artifact. Slot 5 differs from its declared digest. The independent JavaScript encoder checks which downloaded shards match the original bytes. The proof then verifies signed calldata, exact recovery, rollback of a batch containing the tampered shard, and rejection after completion. Generic CLI receipt transport is reused under MIT.
+
+[StudioNet proofs](proofs/README.md) · [Submission text](SUBMISSION.md).
